@@ -1,0 +1,118 @@
+body{
+    background: #1a1a1a;
+    color: #fff;
+}
+.bg{
+    min-height: 100vh;
+    text-align: center;
+}
+.btn{
+    font-size: 1.3rem;
+    height: 2.5rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #1e1e1e;
+    border-radius: 0.3rem; 
+}
+footer{
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    background: #232323;
+    padding: .5rem;
+}
+
+.text-right{
+    text-align: right;
+}
+.dis-inherit{
+ display: inherit;   
+}
+.wrap{
+    margin: 4rem 0;
+}
+.blue{
+    color: #4a84cf;
+}
+.code{
+    border: 1px solid #4a84cf;
+    padding: 1px;
+    color: #4a84cf;
+}
+.va_md{
+    vertical-align: middle;
+}
+/*flex 布局开始*/
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.items-end{
+    align-items: flex-end;
+}
+.items-center{
+    align-items: center;
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex5{
+    flex: 5;
+}
+.flex6{
+    flex: 6;
+}
+.flex7{
+    flex: 7;
+}
+.flex9{
+    flex: 9;
+}
+.flex11{
+    flex: 11;
+}
+.flex16{
+    flex: 16;
+}
+.flex20{
+    flex: 20;
+}
+.flex200{
+    flex: 200;
+}
+/*flex布局结束*/
+/*mintui组件库开始*/
+.mint-badge.is-size-small{
+    font-size: 0.7rem;
+    padding: .3rem .3rem;
+}
+.mint-cell {
+    background: unset;
+    &:last-child{
+        background-image: unset;
+    }
+    .mint-cell-wrapper{
+        background-image: unset;
+        .mint-cell-title{
+            font-size: 1rem;
+            width: 7rem;
+        }
+        .mint-cell-value input{
+            font-size: 1rem;
+            background: unset!important;
+            color: #fff;
+            border-bottom: 1px solid #707070;
+        }
+    }
+}
+/*mintui组件库结束*/
